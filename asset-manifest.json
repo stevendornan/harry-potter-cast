@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/harry-potter-cast/static/css/main.f55c0c74.chunk.css",
+    "main.js": "/harry-potter-cast/static/js/main.616c3dd5.chunk.js",
+    "main.js.map": "/harry-potter-cast/static/js/main.616c3dd5.chunk.js.map",
+    "runtime-main.js": "/harry-potter-cast/static/js/runtime-main.f88fd58c.js",
+    "runtime-main.js.map": "/harry-potter-cast/static/js/runtime-main.f88fd58c.js.map",
+    "static/js/2.60317c3a.chunk.js": "/harry-potter-cast/static/js/2.60317c3a.chunk.js",
+    "static/js/2.60317c3a.chunk.js.map": "/harry-potter-cast/static/js/2.60317c3a.chunk.js.map",
+    "static/js/3.4bf85ff3.chunk.js": "/harry-potter-cast/static/js/3.4bf85ff3.chunk.js",
+    "static/js/3.4bf85ff3.chunk.js.map": "/harry-potter-cast/static/js/3.4bf85ff3.chunk.js.map",
+    "index.html": "/harry-potter-cast/index.html",
+    "static/css/main.f55c0c74.chunk.css.map": "/harry-potter-cast/static/css/main.f55c0c74.chunk.css.map",
+    "static/js/2.60317c3a.chunk.js.LICENSE.txt": "/harry-potter-cast/static/js/2.60317c3a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/harry-potter-cast/static/media/background.f465772a.jpg",
+    "static/media/logo.0208e6cb.png": "/harry-potter-cast/static/media/logo.0208e6cb.png",
+    "static/media/spinner.11d9cde8.gif": "/harry-potter-cast/static/media/spinner.11d9cde8.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f88fd58c.js",
+    "static/js/2.60317c3a.chunk.js",
+    "static/css/main.f55c0c74.chunk.css",
+    "static/js/main.616c3dd5.chunk.js"
+  ]
+}
