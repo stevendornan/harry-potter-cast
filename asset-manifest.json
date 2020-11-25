@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/harry-potter-cast/static/css/main.f55c0c74.chunk.css",
-    "main.js": "/harry-potter-cast/static/js/main.adc1e504.chunk.js",
-    "main.js.map": "/harry-potter-cast/static/js/main.adc1e504.chunk.js.map",
+    "main.js": "/harry-potter-cast/static/js/main.29de009c.chunk.js",
+    "main.js.map": "/harry-potter-cast/static/js/main.29de009c.chunk.js.map",
     "runtime-main.js": "/harry-potter-cast/static/js/runtime-main.f88fd58c.js",
     "runtime-main.js.map": "/harry-potter-cast/static/js/runtime-main.f88fd58c.js.map",
     "static/js/2.60317c3a.chunk.js": "/harry-potter-cast/static/js/2.60317c3a.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.f88fd58c.js",
     "static/js/2.60317c3a.chunk.js",
     "static/css/main.f55c0c74.chunk.css",
-    "static/js/main.adc1e504.chunk.js"
+    "static/js/main.29de009c.chunk.js"
   ]
 }
