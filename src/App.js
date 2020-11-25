@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
+import Header from './components/ui/Header'
+import CharacterGrid from './components/characters/CharacterGrid'
+import Search from './components/ui/Search'
+import './App.css'
 
-function App() {
+const App = () => {
+  const [characters, setCharacters] = useState([])
+  const [isLoading, setIsLoading] = useState(true)
+  const [query, setQuery] = useState('')
+
+  useEffect(() => {
+    setIsLoading(true)
+    const fetchCharacters = async () => {
+      const res = await axios(
+        `http://hp-api.herokuapp.com/api/characters?q=${query}`
+      )
+      const data = res.data
+        ? res.data.filter((character) =>
+            character.name.toLowerCase().includes(query)
+          )
+        : []
+      setCharacters(data)
+      setIsLoading(false)
+    }
+    fetchCharacters()
+  }, [query])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <Header />
+      <Search getQuery={(q) => setQuery(q)} />
+      <CharacterGrid isLoading={isLoading} characters={characters} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
